@@ -1,0 +1,21 @@
+pluginManagement {
+    repositories {
+        google()
+        gradlePluginPortal()
+        mavenCentral()
+    }
+}
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        google()
+        mavenCentral()
+        jcenter()
+    }
+}
+rootProject.name = "Group_13_final"
+include ':app'
+//include ':auth-sample'
+include ':auth-lib'
+include ':app-remote-lib'
+//include ':app-remote-sample'

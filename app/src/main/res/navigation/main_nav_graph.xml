@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main_nav_graph"
+    app:startDestination="@id/spotify_main">
+    <fragment
+        android:id="@+id/spotify_main"
+        android:name="com.example.group_13_final.SpotifyMainFragment"
+        >
+        <action
+            android:id="@+id/navigate_to_account"
+            app:destination="@id/account" />
+        <action
+            android:id="@+id/navigate_to_recommends"
+            app:destination="@id/recommends" />
+    </fragment>
+    <fragment
+        android:id="@+id/account"
+        android:name="com.example.group_13_final.ui.AccountDetailsFragment"/>
+    <fragment
+        android:id="@+id/recommends"
+        android:name="com.example.group_13_final.ui.RecFragment"/>
+
+    <fragment
+        android:id="@+id/settings"
+        android:name="com.example.group_13_final.ui.SettingsFragment"/>
+
+</navigation>

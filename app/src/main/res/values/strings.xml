@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Group_13_final</string>
+    <string name="search_hint">Search For artists or songs…</string>
+    <string name="search">Search</string>
+    <string name="search_error">We were unable to execute your search.  Please check your internet connection and try again.</string>
+    <string name="account_action">View Account Details</string>
+
+    <string name="pref_category_search">App Settings</string>
+
+    <string name="pref_max_energy">Max Energy</string>
+    <string name="pref_max_energy_key" translatable="false">energy</string>
+
+    <string name="pref_dance">Max Danceability</string>
+    <string name="pref_dance_key" translatable="false">Dance</string>
+
+    <string name="pref_max_tempo">Max BPM</string>
+    <string name="pref_max_tempo_key">BMP</string>
+
+    <string name="pref_key">Key 0 = C, 11= B</string>
+    <string name="pref_key_key" translatable="true">key</string>
+
+    <string name="navigation_drawer_open">Open</string>
+    <string name="navigation_drawer_close">Close</string>
+
+    <string name="pref_genre_title">Musical Genres Up to 5</string>
+    <string name="pref_genre_key">Genre</string>
+    <string name="pref_genre_default">country,classical,hip-hop,pop,indie</string>
+</resources>

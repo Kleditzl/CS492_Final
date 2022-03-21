@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen     xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <PreferenceCategory android:title="@string/pref_category_search">
+        <EditTextPreference
+            android:title="@string/pref_genre_title"
+            android:key="@string/pref_genre_key"
+            app:useSimpleSummaryProvider="true"
+            android:defaultValue="@string/pref_genre_default"/>
+        <SeekBarPreference
+            android:title="@string/pref_max_energy"
+            android:key="@string/pref_max_energy_key"
+            android:max="100"
+            app:showSeekBarValue="true"
+            android:defaultValue="100"/>
+        <SeekBarPreference
+            android:title="@string/pref_dance"
+            android:key="@string/pref_dance_key"
+            android:max="100"
+            app:min="0"
+            app:showSeekBarValue="true"
+            app:seekBarIncrement="1"
+            android:defaultValue="100"/>
+        <SeekBarPreference
+            android:title="Max Tempo"
+            android:key="@string/pref_max_tempo_key"
+            android:max="500"
+            app:min="10"
+            app:seekBarIncrement="10"
+            app:showSeekBarValue="true"
+            android:defaultValue="500"/>
+
+
+    </PreferenceCategory>
+</PreferenceScreen>
